@@ -79,8 +79,6 @@ If your number was <b>3</b> or <b>9</b>, congratulations, winner! 🏆
 ---
 
 ### 🎮 Mini Game 2: "Catch the Bug" (Choose Your Debugging Path)
-*Because GitHub blocks raw JavaScript and animation scripts, this interactive choose-your-own-adventure game works natively using native markdown dropdowns!*
-
 > **Scenario:** A critical production bug has appeared in your repository! Choose your debugging path:
 
 <details>
@@ -101,6 +99,17 @@ Great choice! You trace the error to an unhandled asynchronous promise rejection
 <br>
 💥 <b>Crash!</b> Production goes down immediately. Roll back! 
 </details>
+<details>
+<summary><b>🔍 Option C: Blame the database indices and rewrite the schema from scratch.</b></summary>
+<br>
+💥 <b>Overkill!</b> You spend 6 hours rewriting working SQL queries only to realize the frontend was just passing `undefined` in the payload. Back to square one!
+</details>
+
+<details>
+<summary><b>🤖 Option D: Ask AI to refactor the entire codebase blindly.</b></summary>
+<br>
+💥 <b>Chaos!</b> The AI hallucinates a breaking change, deletes three critical environment variables, and pushes 4,0ers of redundant code. Good luck reverting that commit!
+</details>
 </details>
 </details>
 
@@ -108,6 +117,16 @@ Great choice! You trace the error to an unhandled asynchronous promise rejection
 <summary><b>⚡ Option B: Immediately restart the server without checking logs.</b></summary>
 <br>
 💥 <b>Oops!</b> The server restarts, but the underlying race condition causes memory leakage and it crashes again instantly. Try Option A!
+</details><details>
+<summary><b>🔍 Option C: Blame the database indices and rewrite the schema from scratch.</b></summary>
+<br>
+💥 <b>Overkill!</b> You spend 6 hours rewriting working SQL queries only to realize the frontend was just passing `undefined` in the payload. Back to square one!
+</details>
+
+<details>
+<summary><b>🤖 Option D: Ask AI to refactor the entire codebase blindly.</b></summary>
+<br>
+💥 <b>Chaos!</b> The AI hallucinates a breaking change, deletes three critical environment variables, and pushes 4,0ers of redundant code. Good luck reverting that commit!
 </details>
 
 ---
