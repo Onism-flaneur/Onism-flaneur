@@ -5,7 +5,7 @@
 ---
 
 ### 🚀 Who I Am
-I am a **Data Science & AI Engineer** and **Full-Stack Developer** based in Lucknow, Uttar Pradesh, India. I hold a Bachelor of Technology in Computer Science (Artificial Intelligence) from Shri Ramswaroop Memorial University. Currently, I work as a **Data Associate Analyst at Tech Mahindra**, where I analyze complex datasets, optimize data workflows, and bridge technical insights with operational decision-making. 
+I am a **Software Devlooper & AI Engineer** based in Lucknow, Uttar Pradesh, India. I hold a Bachelor of Technology in Computer Science (Artificial Intelligence) from Shri Ramswaroop Memorial University. Currently, I'm working as a **Data Associate Analyst at Tech Mahindra**, where I analyze complex datasets, optimize data workflows, and bridge technical insights with operational decision-making. 
 
 ---
 
