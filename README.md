@@ -80,8 +80,6 @@ If your number was <b>3</b> or <b>9</b>, congratulations, winner! 🏆
 *Since GitHub sanitizes JavaScript, we can use **pure CSS/SVG hover interactions** to build a lightweight animated mini-game right inside your profile!*
 
 > **How to play:** Hover your mouse/cursor over the target moving bug below to catch it!
-
-```html
 <p align="center">
   <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
     <style>
@@ -126,7 +124,6 @@ If your number was <b>3</b> or <b>9</b>, congratulations, winner! 🏆
     <text x="180" y="85" class="win-text">🎉 Bug Caught! Great Job!</text>
   </svg>
 </p>
-```
 
 ---
 ---
