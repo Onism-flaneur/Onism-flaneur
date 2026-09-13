@@ -33,8 +33,6 @@ I am a **Data Science & AI Engineer** and **Full-Stack Developer** based in Luck
 * **LinkedIn:** [linkedin.com/in/maurya-adarsh](https://linkedin.com/in/maurya-adarsh)
 * **GitHub:** [github.com/Onism-flaneur](https://github.com/Onism-flaneur)
 * **Portfolio / Behance:** [behance.net/onismfineur](https://www.behance.net/onismfineur)
-* **Phone:** (+91) 9026491162
-
 ---
 
 ### 🎮 Mini Game: Guess the Number!
