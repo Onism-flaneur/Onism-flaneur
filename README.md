@@ -74,6 +74,60 @@ Did you pick <b>3, 6, 9, or 10</b>?
 If your number was <b>3</b> or <b>9</b>, congratulations, winner! 🏆
 </details>
 </details>
+---
 
+### 🕹️ Interactive CSS / SVG Animation Game: "Catch the Code Bug"
+*Since GitHub sanitizes JavaScript, we can use **pure CSS/SVG hover interactions** to build a lightweight animated mini-game right inside your profile!*
+
+> **How to play:** Hover your mouse/cursor over the target moving bug below to catch it!
+
+```html
+<p align="center">
+  <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      .bg { fill: #0d1117; rx: 10px; }
+      .text { fill: #c9d1d9; font-family: monospace; font-size: 14px; }
+      .bug { 
+        font-size: 24px; 
+        cursor: pointer;
+        animation: fly 4s infinite alternate ease-in-out;
+      }
+      .bug:hover {
+        animation-play-state: paused;
+      }
+      .bug:hover + .win-text {
+        opacity: 1;
+      }
+      .win-text {
+        fill: #3fb950;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 16px;
+        opacity: 0;
+        transition: opacity 0.2s;
+      }
+      @keyframes fly {
+        0% { transform: translate(50px, 60px); }
+        50% { transform: translate(450px, 30px); }
+        100% { transform: translate(250px, 100px); }
+      }
+    </style>
+    
+    <!-- Background Box -->
+    <rect width="100%" height="100%" class="bg" />
+    
+    <!-- Instructions -->
+    <text x="20" y="30" class="text">🐛 Hover your mouse over the moving bug to catch it!</text>
+    
+    <!-- Moving Bug Element -->
+    <text x="0" y="0" class="bug">🐞</text>
+    
+    <!-- Win message shown on hover -->
+    <text x="180" y="85" class="win-text">🎉 Bug Caught! Great Job!</text>
+  </svg>
+</p>
+```
+
+---
 ---
 *⭐ Feel free to star my repositories if you find my work interesting!*
