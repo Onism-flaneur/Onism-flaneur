@@ -33,6 +33,7 @@ I am a **Data Science & AI Engineer** and **Full-Stack Developer** based in Luck
 * **LinkedIn:** [linkedin.com/in/maurya-adarsh](https://linkedin.com/in/maurya-adarsh)
 * **GitHub:** [github.com/Onism-flaneur](https://github.com/Onism-flaneur)
 * **Portfolio / Behance:** [behance.net/onismfineur](https://www.behance.net/onismfineur)
+
 ---
 
 ### 🎮 Mini Game: Guess the Number!
@@ -74,6 +75,7 @@ Did you pick <b>3, 6, 9, or 10</b>?
 If your number was <b>3</b> or <b>9</b>, congratulations, winner! 🏆
 </details>
 </details>
+
 ---
 
 ### 🎮 Mini Game 2: "Catch the Bug" (Choose Your Debugging Path)
@@ -107,5 +109,7 @@ Great choice! You trace the error to an unhandled asynchronous promise rejection
 <br>
 💥 <b>Oops!</b> The server restarts, but the underlying race condition causes memory leakage and it crashes again instantly. Try Option A!
 </details>
+
 ---
+
 *⭐ Feel free to star my repositories if you find my work interesting!*
