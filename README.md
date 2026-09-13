@@ -77,9 +77,8 @@ If your number was <b>3</b> or <b>9</b>, congratulations, winner! 🏆
 ---
 
 ### 🕹️ Interactive CSS / SVG Animation Game: "Catch the Code Bug"
-*Since GitHub sanitizes JavaScript, we can use **pure CSS/SVG hover interactions** to build a lightweight animated mini-game right inside your profile!*
+*Hover your cursor over the moving bug below to catch it!*
 
-> **How to play:** Hover your mouse/cursor over the target moving bug below to catch it!
 <p align="center">
   <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
     <style>
@@ -124,7 +123,5 @@ If your number was <b>3</b> or <b>9</b>, congratulations, winner! 🏆
     <text x="180" y="85" class="win-text">🎉 Bug Caught! Great Job!</text>
   </svg>
 </p>
-
----
 ---
 *⭐ Feel free to star my repositories if you find my work interesting!*
