@@ -1,16 +1,81 @@
-## Hi there 👋
+# 👋 Hi, I'm Adarsh Maurya!
 
-<!--
-**Onism-flaneur/Onism-flaneur** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="https://komarev.com/ghpvc/?username=Onism-flaneur&color=blueviolet&style=flat-square" alt="Profile Views" />
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 Who I Am
+I am a **Data Science & AI Engineer** and **Full-Stack Developer** based in Lucknow, Uttar Pradesh, India. I hold a Bachelor of Technology in Computer Science (Artificial Intelligence) from Shri Ramswaroop Memorial University. Currently, I work as a **Data Associate Analyst at Tech Mahindra**, where I analyze complex datasets, optimize data workflows, and bridge technical insights with operational decision-making. 
+
+---
+
+### 💻 What I'm Currently Working On
+* **Tech Mahindra:** Analyzing internal datasets, streamlining data-handling workflows, and collaborating on stakeholder requirements.
+* **AI & Web Projects:** Building real-time interactive web applications and exploring ML integrations (such as *Voxgesture*, a real-time sign language translator powered by TensorFlow & WebRTC).
+* **Open Source & UI/UX:** Crafting high-performance web tools like *InvoiceGen* and experimenting with 3D design and intuitive user interfaces.
+
+---
+
+### 🛠️ Tech Stack & Tools
+
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **Languages** | Python, JavaScript, Kotlin, Rust, SQL |
+| **Frontend** | React.js, Next.js, Three.js, HTML5, CSS3, Tailwind CSS |
+| **Backend & APIs** | Node.js, Express.js, REST APIs, MongoDB |
+| **Data & AI** | scikit-learn, TensorFlow, Google MediaPipe |
+| **Tools & Design** | Git / GitHub, Figma, Adobe XD, Android Studio |
+
+---
+
+### 📬 How to Reach Me
+* **Email:** adarshujjwal1919@gmail.com
+* **LinkedIn:** [linkedin.com/in/maurya-adarsh](https://linkedin.com/in/maurya-adarsh)
+* **GitHub:** [github.com/Onism-flaneur](https://github.com/Onism-flaneur)
+* **Portfolio / Behance:** [behance.net/onismfineur](https://www.behance.net/onismfineur)
+* **Phone:** (+91) 9026491162
+
+---
+
+### 🎮 Mini Game: Guess the Number!
+Test your luck right here in the Markdown file! 
+
+> **Rules:** 
+> 1. Think of a number between **1 and 10**.
+> 2. Click one of the secret spoiler boxes below to see if you guessed correctly!
+
+<details>
+<summary><b>🎯 Guess 1</b></summary>
+<br>
+Did you pick <b>1, 4, or 7</b>? 
+<br><br>
+<details>
+<summary>✨ Reveal Answer</summary>
+If your number was <b>7</b>, you won! 🎉 (If not, try another box!)
+</details>
+</details>
+
+<details>
+<summary><b>🎯 Guess 2</b></summary>
+<br>
+Did you pick <b>2, 5, or 8</b>? 
+<br><br>
+<details>
+<summary>✨ Reveal Answer</summary>
+If your number was <b>5</b>, you hit the jackpot! 🚀 (Otherwise, try the last box!)
+</details>
+</details>
+
+<details>
+<summary><b>🎯 Guess 3</b></summary>
+<br>
+Did you pick <b>3, 6, 9, or 10</b>? 
+<br><br>
+<details>
+<summary>✨ Reveal Answer</summary>
+If your number was <b>3</b> or <b>9</b>, congratulations, winner! 🏆
+</details>
+</details>
+
+---
+*⭐ Feel free to star my repositories if you find my work interesting!*
