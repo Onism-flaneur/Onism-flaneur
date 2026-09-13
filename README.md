@@ -76,52 +76,36 @@ If your number was <b>3</b> or <b>9</b>, congratulations, winner! 🏆
 </details>
 ---
 
-### 🕹️ Interactive CSS / SVG Animation Game: "Catch the Code Bug"
-*Hover your cursor over the moving bug below to catch it!*
+### 🎮 Mini Game 2: "Catch the Bug" (Choose Your Debugging Path)
+*Because GitHub blocks raw JavaScript and animation scripts, this interactive choose-your-own-adventure game works natively using native markdown dropdowns!*
 
-<p align="center">
-  <svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
-    <style>
-      .bg { fill: #0d1117; rx: 10px; }
-      .text { fill: #c9d1d9; font-family: monospace; font-size: 14px; }
-      .bug { 
-        font-size: 24px; 
-        cursor: pointer;
-        animation: fly 4s infinite alternate ease-in-out;
-      }
-      .bug:hover {
-        animation-play-state: paused;
-      }
-      .bug:hover + .win-text {
-        opacity: 1;
-      }
-      .win-text {
-        fill: #3fb950;
-        font-family: monospace;
-        font-weight: bold;
-        font-size: 16px;
-        opacity: 0;
-        transition: opacity 0.2s;
-      }
-      @keyframes fly {
-        0% { transform: translate(50px, 60px); }
-        50% { transform: translate(450px, 30px); }
-        100% { transform: translate(250px, 100px); }
-      }
-    </style>
-    
-    <!-- Background Box -->
-    <rect width="100%" height="100%" class="bg" />
-    
-    <!-- Instructions -->
-    <text x="20" y="30" class="text">🐛 Hover your mouse over the moving bug to catch it!</text>
-    
-    <!-- Moving Bug Element -->
-    <text x="0" y="0" class="bug">🐞</text>
-    
-    <!-- Win message shown on hover -->
-    <text x="180" y="85" class="win-text">🎉 Bug Caught! Great Job!</text>
-  </svg>
-</p>
+> **Scenario:** A critical production bug has appeared in your repository! Choose your debugging path:
+
+<details>
+<summary><b>🐛 Option A: Inspect the server logs and trace the stack trace.</b></summary>
+<br>
+Great choice! You trace the error to an unhandled asynchronous promise rejection. 
+<br><br>
+<details>
+<summary><b>👉 Next Step: How do you fix it?</b></summary>
+<br>
+<details>
+<summary><b>1. Wrap the async call in a try/catch block.</b></summary>
+<br>
+🎉 <b>Success!</b> The bug is fixed, tests pass, and your application is fully stable!
+</details>
+<details>
+<summary><b>2. Ignore the warning and push to main.</b></summary>
+<br>
+💥 <b>Crash!</b> Production goes down immediately. Roll back! 
+</details>
+</details>
+</details>
+
+<details>
+<summary><b>⚡ Option B: Immediately restart the server without checking logs.</b></summary>
+<br>
+💥 <b>Oops!</b> The server restarts, but the underlying race condition causes memory leakage and it crashes again instantly. Try Option A!
+</details>
 ---
 *⭐ Feel free to star my repositories if you find my work interesting!*
